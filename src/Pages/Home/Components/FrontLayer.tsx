@@ -66,7 +66,7 @@ export default function FrontLayer() {
             informatika. Na rozdíl od většiny ostatních podobných soutěží se snažíme o tematickou pestrost úloh přes všechny možné popdobory informatiky. Kromě klasických algoritmických úloh se můžete těšit na všechny možné úlohy od výroby hardwaru a
             programování operačních systémů, přes databáze a hackovací úlohy až ke computer visionu, umělé inteligenci nebo programování kvantových počítačů a monohem více. Naše úlohy jsou navíc pravidelně odstupňované dle obtížnosti, takže si zábavu
             najdou jak středně pokročilí programátoři, tak lidi, co pořádné výzvy. Tak neváhej a začni řešit na stránce{" "}
-            <a href="https://zisk-go.com/" target="_blank">
+            <a href="https://zisk-go.com/" target="_blank" rel="noreferrer">
               https://zisk-go.com/
             </a>
             .
