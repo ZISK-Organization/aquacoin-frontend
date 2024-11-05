@@ -25,7 +25,7 @@ export default function FrontLayer() {
           <div style={styles.column}>
             <div style={styles.headline}>Šifrovačka, kde si sáhneš až na dno!</div>
             <img src={illustrationColumn1} style={{ width: "50%", marginLeft: "49%", marginTop: 42 }} alt="" />
-            <div style={styles.date}>24. května 2025</div>
+            <div style={styles.date}>10. května 2025</div>
           </div>
           <div style={styles.column}>
             <div style={styles.header}>Vodní Šifrovačka?!</div>

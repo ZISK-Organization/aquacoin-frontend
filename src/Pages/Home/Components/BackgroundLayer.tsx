@@ -35,7 +35,7 @@ export default function IntroPanel() {
               <div style={styles.cardContent}>
                 V sobotu
                 <br />
-                24. května 2025
+                10. května 2025
               </div>
             </div>
             <div style={styles.card}>
