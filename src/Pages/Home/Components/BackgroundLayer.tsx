@@ -1,5 +1,5 @@
 import React from "react";
-import informationBg from "../../../img/infoBg.png";
+import informationBg from "../../../img/infoBg.avif";
 import logo from "../../../img/logoTextRight.svg";
 import useStyles from "../../../Hooks/useStyles";
 import useScroll from "../../../Hooks/useScroll";

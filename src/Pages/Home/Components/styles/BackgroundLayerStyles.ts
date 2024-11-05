@@ -1,5 +1,5 @@
 import { StylesDefinition } from "../../../../types";
-import introBg from "../../../../img/introBg.png";
+import introBg from "../../../../img/introBg.avif";
 import CardsStyles from "./CardsStyles";
 import CommonStyles from "./CommonStyles";
 

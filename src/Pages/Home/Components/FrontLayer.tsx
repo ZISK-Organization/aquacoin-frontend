@@ -1,14 +1,14 @@
 import React from "react";
 import useStyles from "../../../Hooks/useStyles";
-import illustrationColumn1 from "../../../img/bottleIllustration.png";
-import illustrationColumn2 from "../../../img/waterIllustration.png";
-import illustrationColumn3 from "../../../img/boatIllustration.png";
+import illustrationColumn1 from "../../../img/bottleIllustration.avif";
+import illustrationColumn2 from "../../../img/waterIllustration.avif";
+import illustrationColumn3 from "../../../img/boatIllustration.avif";
 import styleDefinition from "./styles/FrontLayerStyles";
 import useBreakpoints from "../../../Hooks/useBreakpoints";
-import ZISKIntro from "../../../img/ZISKIntro.png";
-import OldrichHalabala from "../../../img/OldrichHalabala.jpg";
-import StastnyJakub from "../../../img/StastnyJakub.png";
-import KramarBor from "../../../img/KramarBor.jpg";
+import ZISKIntro from "../../../img/ZISKIntro.avif";
+import OldrichHalabala from "../../../img/OldrichHalabala.avif";
+import StastnyJakub from "../../../img/StastnyJakub.avif";
+import KramarBor from "../../../img/KramarBor.avif";
 import { useNavigate } from "react-router-dom";
 
 export default function FrontLayer() {
