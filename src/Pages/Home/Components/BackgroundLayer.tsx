@@ -19,7 +19,7 @@ export default function IntroPanel() {
         <div style={styles.root}>
           <img src={logo} alt="logo" style={styles.logo} />
           <div style={styles.text}>
-            Šiforvačka jak ji ještě neznáte!
+            Šifrovačka jak ji ještě neznáte!
             <br />
             <div style={styles.button} onClick={() => alert("Registrace bude spuštěna na jaře 2025")}>
               Registruj se!
@@ -65,18 +65,15 @@ export default function IntroPanel() {
             <div style={styles.card}>
               <div style={styles.cardHeader}>Za kolik?</div>
               <div style={styles.cardContent}>
-                Odhadovaná cena je kolem 1000&nbsp;Kč/tým, bude před registrací upřesněna
+                Odhadovaná cena je kolem 1000&nbsp;Kč/tým, bude včas upřesněna
                 {size !== "small" && (
                   <>
                     <br />
-                    Cena zahrnuje mimo jiné náklady na půjčení lodě, organizátoři pracují bez nároku na odměnu
+                    Cena zahrnuje půjčovné lodě, organizátoři pracují bez nároku na odměnu
                   </>
                 )}
               </div>
             </div>
-            {
-              // TODO něco lepšího
-            }
             {size !== "small" && (
               <div style={styles.card}>
                 <div style={styles.cardHeader}>Proč jít?</div>
