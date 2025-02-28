@@ -57,7 +57,7 @@ export default function IntroPanel() {
             <div style={styles.card}>
               <div style={styles.cardHeader}>Na jak dlouho?</div>
               <div style={styles.cardContent}>
-                Jde o denní šfifrovačku
+                Jde o denní šifrovačku
                 <br />
                 Začíná ráno, končí k večeru
               </div>
