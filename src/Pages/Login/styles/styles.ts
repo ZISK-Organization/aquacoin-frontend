@@ -18,7 +18,7 @@ const stylesDefinition: StylesDefinition = {
         default: {
             border: "1px solid lightgray",
             borderRadius: "16px",
-            width: 462,
+            width: `max(462px, 90%)`,
             display: "flex",
             flexDirection: "column",
             alignItems: "center",
