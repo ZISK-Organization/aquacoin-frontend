@@ -67,7 +67,7 @@ export default function IntroPanel() {
             <div style={styles.card}>
               <div style={styles.cardHeader}>Za kolik?</div>
               <div style={styles.cardContent}>
-                Odhadovaná cena je kolem 1000&nbsp;Kč/tým, bude včas upřesněna
+                1 500&nbsp;Kč/tým
                 {size !== "small" && (
                   <>
                     <br />

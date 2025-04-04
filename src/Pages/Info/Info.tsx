@@ -34,7 +34,7 @@ export default function Info() {
   return (
     <>
       <div style={{ width: "min(1250px, 98vw)", margin: "auto", padding: 0, paddingTop: 32 }}>
-        <p>Podrobné informace o hře a jejím průběhu spolu s jejími pravidly budou před spuštěním registrace zveřejněny na této stránce. </p>
+        <p>Podrobné informace o hře a jejím průběhu spolu s jejími pravidly budou co nejdříve zveřejněny na této stránce. </p>
         <div style={styles.button} onClick={() => nav("/")}>
           Zpět na hlavní stránku
         </div>
