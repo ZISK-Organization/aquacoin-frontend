@@ -6,12 +6,14 @@ import useScroll from "../../../Hooks/useScroll";
 import useDimensions from "../../../Hooks/useDimensions";
 import stylesDefinition from "./styles/BackgroundLayerStyles";
 import useBreakpoints from "../../../Hooks/useBreakpoints";
+import { useNavigate } from "react-router-dom";
 
 export default function IntroPanel() {
   const styles = useStyles(stylesDefinition);
   const scroll = useScroll();
   const { height } = useDimensions();
   const size = useBreakpoints();
+  const nav = useNavigate();
 
   return (
     <>
@@ -21,7 +23,7 @@ export default function IntroPanel() {
           <div style={styles.text}>
             Šifrovačka jak ji ještě neznáte!
             <br />
-            <div style={styles.button} onClick={() => alert("Registrace bude spuštěna na jaře 2025")}>
+            <div style={styles.button} onClick={() => nav("/Registration")}>
               Registruj se!
             </div>
           </div>
