@@ -3,7 +3,6 @@ import useStyles from "../../Hooks/useStyles";
 import { useNavigate } from "react-router-dom";
 
 export default function Info() {
-  // TODO whole page
   const styles = useStyles({
     button: {
       default: {
