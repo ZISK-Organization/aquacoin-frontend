@@ -51,7 +51,7 @@ export default function Info() {
         <b>Poplatek za hru</b>
         <p>
           Poplatek činí <b>1 500 Kč</b> za tým a slouží k pokrytí nákladů na přípravu hry. Organizátoři pracují bez nároku na odměnu. Poplatek zahrnuje mimo jiné i půjčovné za loď. Každý tým dostane zapůjčený <b>Raft Ontario 450</b> pro 4 až 6 osob,
-          <b>5 pádel</b> a <b>5 plovacích vest</b>.
+          <b> 5 pádel</b> a <b>5 plovacích vest</b>.
         </p>
         <p>
           Dále bude od každého týmu při zapůjčení lodi vybrána <b>vratná záloha 1 000 Kč</b>, kterou bude možné uhradit při přebírání lodi hotově nebo pomocí QR platby. Záloha bude vrácena ihned po odevzdání zapůjčené lodi, pádel a vest zpět organizátorům.
@@ -90,7 +90,7 @@ export default function Info() {
             <b>Mobil s internetem</b> a staženou mapou Brněnské přehrady
           </li>
           <li>
-            Šifrovací pomůcky (například
+            Šifrovací pomůcky (například{" "}
             <a href="https://www.napalmne.cz/pomucky/NaPALM_pravitko221015.pdf" target="_blank" rel="noreferrer">
               Šifrovací pravítko NaPALM
             </a>
@@ -101,6 +101,35 @@ export default function Info() {
         <i>
           V případě dotazů napište organizátorům na e-mail <a href="mailto:xstastnyj@gmail.com">xstastnyj@gmail.com</a>
         </i>
+        <br />
+        <b>GDPR</b>
+        <p>
+          Na základě článku 13 Nařízení Evropského parlamentu a Rady (EU) 2016/679 ze dne 27. dubna 2016 o ochraně fyzických osob v souvislosti se zpracováním osobních údajů a o volném pohybu těchto údajů (dále jen „GDPR“) tímto poskytujeme informace o
+          zpracování osobních údajů, ke kterému dochází v rámci konání této akce.
+        </p>
+        <p>
+          Správcem osobních údajů jsou organizátoři akce AquaCoin, kontaktní e-mail: zisk@zisk-go.com. Účelem zpracování osobních údajů je dokumentace průběhu akce a její propagace, a to včetně propagace budoucích aktivit správce. V rámci této akce mohou
+          být pořizovány obrazové a zvukové záznamy, zejména fotografie a videozáznamy, na kterých mohou být účastníci zachyceni rozpoznatelně.
+        </p>
+        <p>
+          Záznamy mohou být pořizovány správcem nebo jím pověřenými osobami, přičemž tyto záznamy mohou být dále zpracovávány za účelem zveřejnění na webových stránkách správce, sociálních sítích správce, v tiskových zprávách, informačních a prezentačních
+          materiálech správce či v dalších obdobných výstupech sloužících k informování veřejnosti o aktivitách správce. Právním základem zpracování je oprávněný zájem správce podle čl. 6 odst. 1 písm. f) GDPR, spočívající v dokumentaci a propagaci jeho
+          činnosti.
+        </p>
+        <p>
+          Osobní údaje nebudou předávány do třetích zemí mimo Evropskou unii, ledaže by to bylo nezbytné v souvislosti se zpracováním na sociálních sítích či jiných platformách se sídlem mimo EU, přičemž v takovém případě budou zajištěny vhodné záruky
+          ochrany osobních údajů dle kapitol V GDPR. Osobní údaje nebudou používány k automatizovanému rozhodování ani profilování.
+        </p>
+        <p>Pořízené záznamy budou uchovávány po dobu nezbytně nutnou k naplnění výše uvedených účelů, nejdéle však po dobu 10 let, není-li zákonný důvod pro jejich delší uchování.</p>
+        <p>
+          Subjekty údajů mají právo požadovat přístup ke svým osobním údajům, jejich opravu nebo výmaz, jakož i právo na omezení zpracování, právo vznést námitku proti zpracování, a v případě, že je zpracování založeno na souhlasu, také právo na odvolání
+          souhlasu. Dále mají právo podat stížnost u dozorového úřadu, kterým je Úřad pro ochranu osobních údajů, se sídlem Pplk. Sochora 27, 170 00 Praha 7.
+        </p>
+        <p>
+          V případě, že si účastník nepřeje být zachycen na fotografiích nebo videozáznamech, je oprávněn tuto skutečnost oznámit organizátorovi akce přímo na místě nebo prostřednictvím výše uvedeného kontaktního e-mailu. Správce se v takovém případě
+          zavazuje v rozumném rozsahu této žádosti vyhovět, pokud to bude technicky a organizačně možné.
+        </p>
+        <p>Tento dokument je zveřejněn pro účely naplnění informační povinnosti správce ve smyslu čl. 13 GDPR.</p>
         <br />
         <br />
         <div style={styles.button} onClick={() => nav("/")}>

@@ -45,7 +45,7 @@ export default function IntroPanel() {
               <div style={styles.cardContent}>
                 Na Prýglu
                 <br />
-                (Breněnské přehradě)
+                (Brněnské přehradě)
               </div>
             </div>
             <div style={styles.card}>

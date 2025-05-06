@@ -30,7 +30,7 @@ export default function FrontLayer() {
           <div style={styles.column}>
             <div style={styles.header}>Vodní Šifrovačka?!</div>
             <div style={styles.text}>
-              Nebaví vás šifrovačky, které vás nutí chodit z kóty na kótu? Už jste byli na tolika šifrovačkách, že vám začinají připadat všechny stejné a chtěli byste změnu? Nebo prostě jen rádi šifrujete a máte rádi vodu? Pak je AQUACoin přesně pro vás!
+              Nebaví vás šifrovačky, které vás nutí chodit z kóty na kótu? Už jste byli na tolika šifrovačkách, že vám začínají připadat všechny stejné a chtěli byste změnu? Nebo prostě jen rádi šifrujete a máte rádi vodu? Pak je AQUACoin přesně pro vás!
               Kromě skvělých šifer a spousty zábavy na vodě vám můžeme garantovat, že jsme jedinou českou šifrovačkou s trasou s&nbsp;0&nbsp;m převýšení.
             </div>
             {size === "large" && <img src={illustrationColumn2} alt="" />}
