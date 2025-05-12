@@ -13,9 +13,23 @@ export interface Team {
     members: Member[]
 }
 
+export interface TeamStatus {
+    puzzlesStatus: PuzzleStatusFull[]
+    team: Team
+    score: number
+}
+
+export interface PuzzleStatusFull {
+    puzzleId: number;
+    status: PuzzleStatus
+    time: string | Date
+}
+
 export interface Member {
     id: number;
     name: string;
     age: number;
     mail: string;
 }
+
+export type PuzzleStatus = "arrived" | "solved" | "solvedWithHelp" | "helpAsked" | "unknown" | "failed"

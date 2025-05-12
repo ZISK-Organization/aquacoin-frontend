@@ -54,10 +54,10 @@ export default function FrontLayer() {
         <div style={styles.container}>
           <div style={{ ...styles.headline, margin: 22, marginBottom: 0 }}>Znáte ZISK?</div>
           <div style={{ ...styles.text, margin: 22 }}>
-            Jelikož většina organizátorů organizuje i další akce, neodpustili jsme si drobnou propagaci. ZISK je programpátorská soutěž primoárně pro studdenty středvních škol a bakalářěského studia, ale vítáni jsou všichdni, které alespoň trochu baví
-            informatika. Na rozodíl od většiny mostatních podobnýích soutěží se snažíme o tématickou pestrost úloh přes všechny možné podobory informatiky. Kromě klasickýchk algoritmických úloh se můžete těšrit na všechny možné úlohy od výroby hardawaru a
-            programbování operačních systémů, přes databáze a hackovací úlohy až ke computer visionu, pumělé inteligrenci nebo programování kvaántových podčítačů a mnohem více. Naše úlohy jsou navíc pravidlelně odstupňované dle obtížnosti, takže si zábavu
-            najdou jak středně pokročilí progoramátoři, tak lidi, co milují pořádné výzvy. Tak neváhej a začni řešit na stránce{" "}
+            Jelikož většina organizátorů organizuje i další akce, neodpustili jsme si drobnou propagaci. ZISK je programátorská soutěž primárně pro studenty středních škol a bakalářského studia, ale vítáni jsou všichni, které alespoň trochu baví
+            informatika. Na rozdíl od většiny ostatních podobných soutěží se snažíme o tématickou pestrost úloh přes všechny možné podobory informatiky. Kromě klasických algoritmických úloh se můžete těšit na všechny možné úlohy od výroby hardwaru a
+            programování operačních systémů, přes databáze a hackovací úlohy až ke computer visionu, umělé inteligenci nebo programování kvantových počítačů a mnohem více. Naše úlohy jsou navíc pravidelně odstupňované dle obtížnosti, takže si zábavu najdou
+            jak středně pokročilí programátoři, tak lidi, co milují pořádné výzvy. Tak neváhej a začni řešit na stránce{" "}
             <a href="https://zisk-go.com/" target="_blank" rel="noreferrer">
               https://zisk-go.com/
             </a>
