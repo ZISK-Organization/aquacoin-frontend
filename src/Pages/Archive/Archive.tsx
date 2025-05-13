@@ -4,6 +4,7 @@ import TeamsPreviewTable from "../../Components/TeamsPreviewTable";
 import data from "./Data/2025.json";
 import useStyles from "../../Hooks/useStyles";
 import useBreakpoints from "../../Hooks/useBreakpoints";
+import PhotoGallery from "../../Components/PhotoGallery";
 
 const stylesDefinition: StylesDefinition = {
   tableCell: {
@@ -154,7 +155,7 @@ export default function Archive() {
       </a>
       <br />
       <h3>Fotky z akce</h3>
-      <p>Fotky budou v dohledné době přidány.</p>
+      <PhotoGallery photos={data.photos} />
     </div>
   );
 }
