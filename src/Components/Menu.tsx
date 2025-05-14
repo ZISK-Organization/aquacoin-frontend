@@ -66,20 +66,50 @@ export default function Menu() {
         ☰
       </div>
       <div style={{ ...styles.container, display: open ? "block" : "none" }}>
-        <div onClick={() => nav("/")} style={styles.menuItem}>
+        <div
+          onClick={() => {
+            setOpen(false);
+            nav("/");
+          }}
+          style={styles.menuItem}
+        >
           Úvod
         </div>
-        <div onClick={() => nav("/Info")} style={styles.menuItem}>
+        <div
+          onClick={() => {
+            setOpen(false);
+            nav("/Info");
+          }}
+          style={styles.menuItem}
+        >
           Podrobné informace
         </div>
-        <div onClick={() => nav("/Archive")} style={styles.menuItem}>
+        <div
+          onClick={() => {
+            setOpen(false);
+            nav("/Archive");
+          }}
+          style={styles.menuItem}
+        >
           Proběhlé ročníky
         </div>
         <hr />
-        <div onClick={() => nav("/Registration")} style={styles.menuItem}>
+        <div
+          onClick={() => {
+            setOpen(false);
+            nav("/Registration");
+          }}
+          style={styles.menuItem}
+        >
           Registrace týmu
         </div>
-        <div onClick={() => nav("/Login")} style={styles.menuItem}>
+        <div
+          onClick={() => {
+            setOpen(false);
+            nav("/Login");
+          }}
+          style={styles.menuItem}
+        >
           Přihlášení
         </div>
       </div>
