@@ -89,10 +89,11 @@ export default function Team() {
           <img src={notPaid} style={styles.img} alt="not paid" />
           <div style={styles.textContainer}>
             <div>
-              Aby byla registrace týmu platná, musí být plně uhrazena cena <b>1 500 Kč</b> za tým a to nejpozději do <b>5. května 2025</b>. Cenu prosím uhraďte převodem na účet <b>115-2818930297/0100</b> a do zprávy pro příjemce uveďte{" "}
-              <b>AQUACOIN-{team.name}</b> a jako variabilní symbol uveďte číslo <b>{team.id}</b>. Případne zaplaťte pomocí následující QR platby
+              Aby byla registrace týmu platná, musí být plně uhrazena cena <b>1 750 Kč</b> za tým a to nejpozději do <b>5. května 2026</b>. Cenu prosím uhraďte převodem na účet <b>115-2818930297/0100</b> a do zprávy pro příjemce uveďte{" "}
+              <b>AQUACOIN-{team.name}</b> a jako variabilní symbol uveďte číslo <b>{team.id}</b>. Případně zaplaťte pomocí následující QR platby
             </div>
-            <img src={qrCode} style={styles.img} alt="qr payment" />
+            TODO new QR code
+            {/* <img src={qrCode} style={styles.img} alt="qr payment" /> */}
             <div>
               <b>Po naskenování QR kódu nezapomeňte správně vyplnit název týmu a variabilní symbol.</b>
             </div>
