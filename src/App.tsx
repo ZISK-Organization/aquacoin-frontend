@@ -7,6 +7,7 @@ import Login from "./Pages/Login/Login";
 import Team from "./Pages/Team/Team";
 import Menu from "./Components/Menu";
 import Archive from "./Pages/Archive/Archive";
+import Teams from "./Pages/Teams/Teams";
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/Info" element={<Info />} />
+        <Route path="/Teams" element={<Teams />} />
         <Route path="/Archive" element={<Archive />} />
         <Route path="/Registration" element={<Registration />} />
         <Route path="/Login" element={<Login />} />

@@ -27,13 +27,15 @@ const stylesDefinition: StylesDefinition = {
 
 export default function Archive() {
   const [teams, setTeams] = useState<TeamStatus[]>([]);
+  // eslint-disable-next-line
+  const [year, setYear] = useState<number>(2025);
 
   const styles = useStyles(stylesDefinition);
   const breakpoints = useBreakpoints();
 
   useEffect(() => {
-    // TODO load by year
-    fetch(`https://api.aquacoin.cz/teams/list`, { method: "GET" }).then((rawResponse) =>
+    setTeams([]);
+    fetch(`https://api.aquacoin.cz/teams/list?year=${year}`, { method: "GET" }).then((rawResponse) =>
       rawResponse.json().then((data: TeamStatus[]) =>
         setTeams(
           data
@@ -44,11 +46,11 @@ export default function Archive() {
               lastScoredPuzzleTime: new Date([...d.puzzlesStatus].reverse().filter((p) => p.status === "solved" || p.status === "solvedWithHelp")[0]?.time ?? "").getTime(),
             }))
             .sort((a, b) => (b.score === a.score && a.lastScoredPuzzle === b.lastScoredPuzzle ? a.lastScoredPuzzleTime - b.lastScoredPuzzleTime : b.score === a.score ? b.lastScoredPuzzle - a.lastScoredPuzzle : b.score - a.score))
-            .map((d) => d.team)
-        )
-      )
+            .map((d) => d.team),
+        ),
+      ),
     );
-  }, []);
+  }, [year]);
 
   const puzzlesStates: {
     [index: number]: {
@@ -89,7 +91,7 @@ export default function Archive() {
       <p style={{ textAlign: "justify" }}>{data.introText}</p>
       <br />
       <h3>Výsledky</h3>
-      <TeamsPreviewTable teams={teams} />
+      <TeamsPreviewTable teams={teams} showResults />
       <br />
       <h3>Šifry</h3>
       <table style={{ width: "100%" }}>

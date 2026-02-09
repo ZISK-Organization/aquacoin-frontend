@@ -1,19 +1,40 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import useStyles from "../../../Hooks/useStyles";
 import illustrationColumn1 from "../../../img/bottleIllustration.avif";
 import illustrationColumn2 from "../../../img/waterIllustration.avif";
 import illustrationColumn3 from "../../../img/boatIllustration.avif";
 import styleDefinition from "./styles/FrontLayerStyles";
 import useBreakpoints from "../../../Hooks/useBreakpoints";
-import ZISKIntro from "../../../img/ZISKIntro.avif";
+// import ZISKIntro from "../../../img/ZISKIntro.avif";
 import OldrichHalabala from "../../../img/OldrichHalabala.avif";
 import StastnyJakub from "../../../img/StastnyJakub.avif";
 import KramarBor from "../../../img/KramarBor.avif";
 import { useNavigate } from "react-router-dom";
+import TeamsPreviewTable from "../../../Components/TeamsPreviewTable";
+import { TeamStatus } from "../../../types";
 
 export default function FrontLayer() {
+  const [teams, setTeams] = useState<TeamStatus[]>([]);
+
   const styles = useStyles(styleDefinition);
   const size = useBreakpoints();
+
+  useEffect(() => {
+    setTeams([]);
+    fetch(`https://api.aquacoin.cz/teams/list`, { method: "GET" }).then((rawResponse) =>
+      rawResponse.json().then((data: TeamStatus[]) =>
+        setTeams(
+          data
+            .map((d) => ({
+              team: d,
+              paid: d.team.paid,
+            }))
+            .sort((a, b) => (b.paid === a.paid ? 0 : b.paid ? 1 : -1))
+            .map((d) => d.team),
+        ),
+      ),
+    );
+  }, []);
 
   const nav = useNavigate();
 
@@ -25,7 +46,7 @@ export default function FrontLayer() {
           <div style={styles.column}>
             <div style={styles.headline}>Šifrovačka, kde si sáhneš až na dno!</div>
             <img src={illustrationColumn1} style={{ width: "50%", marginLeft: "49%", marginTop: 42 }} alt="" />
-            <div style={styles.date}>10. května 2025</div>
+            <div style={styles.date}>17. května 2026</div>
           </div>
           <div style={styles.column}>
             <div style={styles.header}>Vodní Šifrovačka?!</div>
@@ -50,19 +71,11 @@ export default function FrontLayer() {
       </div>
       <div style={styles.placeHolder2}></div>
       <div style={{ ...styles.root, paddingTop: 0 }}>
-        <img src={ZISKIntro} alt="" />
+        {/* <img src={ZISKIntro} alt="" /> */}
+        <div style={{ ...styles.title, marginTop: 32 }}>Registrované týmy</div>
         <div style={styles.container}>
-          <div style={{ ...styles.headline, margin: 22, marginBottom: 0 }}>Znáte ZISK?</div>
-          <div style={{ ...styles.text, margin: 22 }}>
-            Jelikož většina organizátorů organizuje i další akce, neodpustili jsme si drobnou propagaci. ZISK je programátorská soutěž primárně pro studenty středních škol a bakalářského studia, ale vítáni jsou všichni, které alespoň trochu baví
-            informatika. Na rozdíl od většiny ostatních podobných soutěží se snažíme o tématickou pestrost úloh přes všechny možné podobory informatiky. Kromě klasických algoritmických úloh se můžete těšit na všechny možné úlohy od výroby hardwaru a
-            programování operačních systémů, přes databáze a hackovací úlohy až ke computer visionu, umělé inteligenci nebo programování kvantových počítačů a mnohem více. Naše úlohy jsou navíc pravidelně odstupňované dle obtížnosti, takže si zábavu najdou
-            jak středně pokročilí programátoři, tak lidi, co milují pořádné výzvy. Tak neváhej a začni řešit na stránce{" "}
-            <a href="https://zisk-go.com/" target="_blank" rel="noreferrer">
-              https://zisk-go.com/
-            </a>
-            .
-          </div>
+          {/* <div style={{ ...styles.headline, margin: 22, marginBottom: 0 }}>Přihlášené týmy</div> */}
+          <div style={{ ...styles.text, margin: 22, textAlign: "center" }}>{teams.length === 0 ? "Na AQUACoin se zatím přihlásil žádný tým. Buďte první a přihlašte se!" : <TeamsPreviewTable teams={teams} showPaid hideHeader />}</div>
         </div>
       </div>
       <div style={{ ...styles.root, textAlign: "center" }}>

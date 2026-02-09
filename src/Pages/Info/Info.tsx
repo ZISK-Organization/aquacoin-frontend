@@ -45,21 +45,22 @@ export default function Info() {
             pouze v případě, že je členem týmu i osoba starší 18 let, která za ně přebírá odpovědnost.
           </li>
           <li>
-            Týmy se musí registrovat nejpozději do <b>3. 5. 2025</b> a zaplatit poplatek <b>1 500 Kč</b> nejpozději do <b>5. 5. 2025</b>.
+            Týmy se musí registrovat nejpozději do <b>30. 4. 2026</b> a zaplatit poplatek <b>1 750 Kč</b> nejpozději do <b>5. 5. 2026</b>.
           </li>
         </ul>
         <b>Poplatek za hru</b>
         <p>
-          Poplatek činí <b>1 500 Kč</b> za tým a slouží k pokrytí nákladů na přípravu hry. Organizátoři pracují bez nároku na odměnu. Poplatek zahrnuje mimo jiné i půjčovné za loď. Každý tým dostane zapůjčený <b>Raft Ontario 450</b> pro 4 až 6 osob,
-          <b> 5 pádel</b> a <b>5 plovacích vest</b>.
+          Poplatek činí <b>1 750 Kč</b> za tým a slouží k pokrytí nákladů na přípravu hry. Organizátoři pracují bez nároku na odměnu. Poplatek zahrnuje mimo jiné i půjčovné za loď. Každý tým dostane zapůjčený <b>Raft Ontario 450</b> nebo{" "}
+          <b>Raft Colorado 450</b> pro 4 až 6 osob, <b> 5 pádel</b> a <b>5 plovacích vest</b>.
         </p>
         <p>
-          Dále bude od každého týmu při zapůjčení lodi vybrána <b>vratná záloha 1 000 Kč</b>, kterou bude možné uhradit při přebírání lodi hotově nebo pomocí QR platby. Záloha bude vrácena ihned po odevzdání zapůjčené lodi, pádel a vest zpět organizátorům.
+          Dále bude od každého týmu při zapůjčení lodi vybrána <b>vratná záloha 1 000 Kč</b>, kterou bude možné uhradit při přebírání lodi <b>hotově</b> nebo pomocí QR platby (preferovaně pouze v případě Komerční banky, u ostatních banek může platba pár
+          dní trvat). Záloha bude vrácena ihned po odevzdání zapůjčené lodi, pádel a vest zpět organizátorům.
         </p>
         <b>Trasa, cíl a délka hry</b>
         <p>
-          Celá hra se bude odehrávat na Prýglu (Brněnské přehradě). Přesné místo a čas srazu bude upřesněno v informačním e-mailu pár dní před akcí. Přesné místo cíle bude zveřejněno během hry. Můžete očekávat začátek hry mezi 8. a 9. hodinou ráno a konec
-          mezi 18. a 19. hodinou. Časy se mohou mírně změnit a budou upřesněny v informačním e-mailu.
+          Celá hra se bude odehrávat na vodní nádrži Nové Mlýny. Sraz i cíl bude blízko Pasohlávek u Brna. Přesné místo a čas srazu bude upřesněno v informačním e-mailu pár dní před akcí. Přesné místo cíle bude zveřejněno během hry. Můžete očekávat začátek
+          hry mezi 8. a 9. hodinou ráno a konec mezi 18. a 19. hodinou. Časy se mohou mírně změnit a budou upřesněny v informačním e-mailu.
         </p>
         <b>Šifry a stanoviště</b>
         <ul>
@@ -96,7 +97,8 @@ export default function Info() {
             </a>
             )
           </li>
-          <li>Psaní potřeby, nůžky, pravítko, lepidlo…</li> <li>Lihový nebo jinak výrazný fix</li> <li>Svačina</li>
+          <li>Psaní potřeby, nůžky, pravítko, lepidlo…</li>
+          <li>Svačina</li>
         </ul>
         <i>
           V případě dotazů napište organizátorům na e-mail <a href="mailto:xstastnyj@gmail.com">xstastnyj@gmail.com</a>

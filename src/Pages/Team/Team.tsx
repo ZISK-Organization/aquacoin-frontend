@@ -72,13 +72,13 @@ export default function Team() {
       <div style={styles.subtitle}>Členové týmu</div>
       <div style={styles.membersContainer}>
         {team.members.map((mem) => (
-          // TODO responsive
           <div key={mem.id} style={styles.memberCard}>
-            <TextField label="Jméno" value={mem.name || ""} onChange={(val) => updateMember({ ...mem, name: val })} />
+            <TextField label="Jméno a příjmení" value={mem.name || ""} onChange={(val) => updateMember({ ...mem, name: val })} />
             <TextField label="Věk" type="number" value={mem.age?.toString() || ""} onChange={(val) => updateMember({ ...mem, age: parseInt(val) })} />
             <TextField label="Email" type="email" value={mem.mail || ""} onChange={(val) => updateMember({ ...mem, mail: val })} />
           </div>
         ))}
+        <div style={{ padding: 12, paddingTop: 0, fontSize: "small" }}>* Zadejte prosím celé skutečné jméno i příjmení, nikoliv přezdívku nebo iniciály. Údaje budou použity pro generování prezenční listiny a dalších dokumentů.</div>
       </div>
       <Button loading={loading} fullWidth label="Uložit změny" onClick={saveChanges} />
       <div style={styles.title}>Informace o platbě</div>

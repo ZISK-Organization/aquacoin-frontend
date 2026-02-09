@@ -35,17 +35,17 @@ export default function IntroPanel() {
             <div style={styles.card}>
               <div style={styles.cardHeader}>Kdy?</div>
               <div style={styles.cardContent}>
-                V sobotu
+                V neděli
                 <br />
-                10. května 2025
+                17. května 2026
               </div>
             </div>
             <div style={styles.card}>
               <div style={styles.cardHeader}>Kde?</div>
               <div style={styles.cardContent}>
-                Na Prýglu
+                Nové Mlýny
                 <br />
-                (Brněnské přehradě)
+                Pasohlávky u Brna
               </div>
             </div>
             <div style={styles.card}>
@@ -67,7 +67,7 @@ export default function IntroPanel() {
             <div style={styles.card}>
               <div style={styles.cardHeader}>Za kolik?</div>
               <div style={styles.cardContent}>
-                1 500&nbsp;Kč/tým
+                1&nbsp;750&nbsp;Kč/tým
                 {size !== "small" && (
                   <>
                     <br />
