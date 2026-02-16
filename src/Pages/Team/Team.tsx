@@ -7,7 +7,7 @@ import notPaid from "../../img/notPaid.png";
 import { Member, Team as TeamType } from "../../types";
 import { useNavigate } from "react-router-dom";
 import paid from "../../img/paid.png";
-import qrCode from "../../img/qrPayment.png";
+// import qrCode from "../../img/qrPayment.png";
 
 export default function Team() {
   const [team, setTeam] = useState<TeamType | undefined>(undefined);
