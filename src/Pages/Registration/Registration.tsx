@@ -45,10 +45,10 @@ export default function Registration() {
         <TextField label="Kontaktní email" value={email} type="email" onChange={setEmail} />
         <TextField label="Heslo" value={password} type="password" onChange={setPassword} />
         <Button disabled={!name || !email || !password} loading={loading} label="Registrovat" onClick={register} fullWidth /> */}
-        <p>Doba pro registraci již vypršela.</p>
-        <span style={styles.link} onClick={() => nav("/Login")}>
+        <p>Registrace bude spuštěna v průběhu března.</p>
+        {/* <span style={styles.link} onClick={() => nav("/Login")}>
           Jste již zaregistrováni? Přihlaste se!
-        </span>
+        </span> */}
       </div>
     </div>
   );
