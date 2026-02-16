@@ -3,7 +3,7 @@ import useStyles from "../../Hooks/useStyles";
 import stylesDefinition from "./styles/styles";
 // import TextField from "../../Components/TextField";
 // import Button from "../../Components/Button";
-import { useNavigate } from "react-router-dom";
+// import { useNavigate } from "react-router-dom";
 
 export default function Registration() {
   // const [name, setName] = useState("");
@@ -12,7 +12,7 @@ export default function Registration() {
   // const [loading, setLoading] = useState(false);
 
   const styles = useStyles(stylesDefinition);
-  const nav = useNavigate();
+  // const nav = useNavigate();
 
   // const register = () => {
   //   setLoading(true);
