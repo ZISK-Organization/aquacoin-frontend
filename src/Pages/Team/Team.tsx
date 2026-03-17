@@ -7,7 +7,7 @@ import notPaid from "../../img/notPaid.png";
 import { Member, Team as TeamType } from "../../types";
 import { useNavigate } from "react-router-dom";
 import paid from "../../img/paid.png";
-// import qrCode from "../../img/qrPayment.png";
+import qrCode from "../../img/qrPayment2026.png";
 
 export default function Team() {
   const [team, setTeam] = useState<TeamType | undefined>(undefined);
@@ -92,8 +92,7 @@ export default function Team() {
               Aby byla registrace týmu platná, musí být plně uhrazena cena <b>1 750 Kč</b> za tým a to nejpozději do <b>5. května 2026</b>. Cenu prosím uhraďte převodem na účet <b>115-2818930297/0100</b> a do zprávy pro příjemce uveďte{" "}
               <b>AQUACOIN-{team.name}</b> a jako variabilní symbol uveďte číslo <b>{team.id}</b>. Případně zaplaťte pomocí následující QR platby
             </div>
-            TODO new QR code
-            {/* <img src={qrCode} style={styles.img} alt="qr payment" /> */}
+            <img src={qrCode} style={styles.img} alt="qr payment" />
             <div>
               <b>Po naskenování QR kódu nezapomeňte správně vyplnit název týmu a variabilní symbol.</b>
             </div>
