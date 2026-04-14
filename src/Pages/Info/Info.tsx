@@ -74,7 +74,7 @@ export default function Info() {
           <li>K řešení šifer je povoleno používat libovolné pomůcky včetně internetu a jazykových modelů (např. GPT).</li> <li>Je zakázána jakákoli pomoc od osob mimo váš tým.</li>
           <li>Je zakázáno sledovat jiné týmy za účelem nalezení stanoviště nebo vyřešení šifry.</li> <li>Dodržujte rozumnou vzdálenost od ostatních týmů.</li> <li>Je zakázáno úmyslně rušit či sabotovat jiné týmy.</li>
           <li>Při přesunech je povoleno používat mapy, včetně GPS.</li> <li>Přesuny musí být uskutečněny výhradně na zapůjčených lodích.</li>
-          <li>Účastníci jsou povinni dbát na bezpečnost ostatních osob a lodí, zejména parníků DPMB. Při plavbě nesmíte křížit směr plavby velkých plavidel (plachetnic, lodí veřejné dopravy) na vzdálenost menší než 50 metrů.</li>
+          <li>Účastníci jsou povinni dbát na bezpečnost ostatních osob a lodí. Při plavbě nesmíte křížit směr plavby velkých plavidel (plachetnic, lodí veřejné dopravy) na vzdálenost menší než 50 metrů.</li>
         </ul>
         <b>Průběh hry, bodování a systém nápověd</b>
         <p>
@@ -88,7 +88,7 @@ export default function Info() {
         <b>Doporučené vybavení</b>
         <ul>
           <li>
-            <b>Mobil s internetem</b> a staženou mapou Brněnské přehrady
+            <b>Mobil s internetem</b> a staženou mapou Nových Mlýnů a okolí
           </li>
           <li>
             Šifrovací pomůcky (například{" "}
